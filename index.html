@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav start -->
+    <div class="nav flex between align">
+        <div class="title">
+            <h1><span>Just</span>Dessert</h1>
+        </div>
+        <div class="buttons flex">
+            <button id="join" onclick="join()">Join</button>
+            <button onclick="this.remove()">Login</button>
+        </div>
+    </div>
+    <!-- nav end -->
+
+    <!-- search start -->
+    <div class="search flex align around">
+        <div class="flex">
+            <input type="text" id="search">
+            <button onclick="search()">GO</button>
+        </div>
+        <div class="link">
+            <img src="http://placekitten.com/100/100" alt="">
+            <p>Cakes</p>
+        </div>
+        <div class="link">
+            <img src="http://placekitten.com/100/100" alt="">
+            <p>Cakes</p>
+        </div>
+        <div class="link">
+            <img src="http://placekitten.com/100/100" alt="">
+            <p>Cakes</p>
+        </div>
+        <div class="link">
+            <img src="http://placekitten.com/100/100" alt="">
+            <p>Cakes</p>
+        </div>
+    </div>
+    <!-- search end -->
+
+    <!-- main start -->
+    <div class="main flex">
+        <div class="col-2">
+            <h1>Recipe of the Day</h1>
+            <img class="recipe_img" src="http://placekitten.com/400/400" alt="">
+            <div class="flex between">
+                <p>Orange Jelly Tart Thing</p>
+                <div class="flex">
+                    <img onclick="like('#count1')" src="http://placekitten.com/25/25" alt="">
+                    <p id="count1">66</p>
+                </div>
+            </div>
+            <p>By: <a href="">so-and-so</a></p>
+            <p><a href="">see full recipe</a></p>
+        </div>
+        <div class="col-1">
+            <h3>Recommend for you</h3>
+            <hr>
+            <img class="recipe_img" src="http://placekitten.com/400/400" alt="">
+            <div class="flex between">
+                <p>Orange Jelly Tart Thing</p>
+                <div class="flex">
+                    <img onclick="like('#count2')" src="http://placekitten.com/25/25" alt="">
+                    <p id="count2">66</p>
+                </div>
+            </div>
+            <p>By: <a href="">so-and-so</a></p>
+            <img class="recipe_img" src="http://placekitten.com/400/400" alt="">
+            <div class="flex between">
+                <p>Orange Jelly Tart Thing</p>
+                <div class="flex">
+                    <img onclick="like('#count3')" src="http://placekitten.com/25/25" alt="">
+                    <p id="count3">66</p>
+                </div>
+            </div>
+            <p>By: <a href="">so-and-so</a></p>
+        </div>
+    </div>
+    <!-- main end -->
+</body>
+</html>

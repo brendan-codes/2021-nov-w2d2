@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.align {
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.col-1 {
+    margin: 10px 10px 10px 10px;
+    flex: 1;
+}
+
+.col-2 {
+    margin: 10px 10px 10px 10px;
+    flex: 2;
+    background-color: #EEEEEE;
+    /* text-align: center; */
+}
+
+/* nav */
+.nav {
+    padding: 10px 30px 10px 30px;
+    background-color: #333333;
+}
+
+.title h1 {
+    font-family: sans-serif;
+    color: #FF9901;
+}
+
+.title h1 span {
+    color: white;
+}
+
+.buttons button {
+    padding: 5px 10px 5px 10px;
+    border: 0px;
+}
+
+.buttons button:first-child {
+    background-color: #FF9901;
+}
+
+.buttons button:last-child {
+    background-color:blue;
+    color: white;
+    margin-left: 20px;
+}
+
+/* search */
+.search {
+    background-color: #F9CB9C;
+    padding: 10px;
+}
+
+.search div button {
+    padding: 5px 10px 5px 10px;
+    background-color:blue;
+    color: white;
+    /* border-radius: 0% 50% 50% 0%; */
+}
+
+.search div img {
+    border-radius: 50%;
+    /* border-radius: 50% 0% 0% 50%; */
+}
+
+.search div p {
+    text-align: center;
+}
+
+.main {
+    padding: 10px;
+}
+
+.recipe_img {
+    width: 100%;
+    height: auto;
+}
